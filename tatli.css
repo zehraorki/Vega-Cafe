@@ -1,0 +1,53 @@
+.t1, .t2, .t3{
+    width: 180px;
+    height: 220px;
+    border-style: solid;
+    padding:5px 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cesitler{
+     display: flex;
+    justify-content: center; 
+    gap: 50px;               
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+h3{
+    text-align: center;
+}
+
+.fiyat{
+    text-align: center;
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2); 
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 0; 
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+
+}
+
+.t1 img, .t2 img, .t3 img{
+    transition: filter 0.4s ease;
+    display: block;
+}
+
+.t1:hover img, .t2:hover img,.t3:hover img {
+  filter: blur(5px);
+}
+
+.t1:hover .fiyat,.t2:hover .fiyat,.t3:hover .fiyat {
+  opacity: 1;
+}

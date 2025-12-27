@@ -1,0 +1,47 @@
+.header.active .baslikgorseli{
+    width: 100%;
+    object-fit: cover;
+}
+
+.tatligorseli {
+    width: 180px;
+
+}
+
+.icecekgorseli{
+    width: 180px;
+}
+
+.tatli{
+    border-style: solid;
+     margin-top: 40px;
+    margin-left: 30px;
+    width: 220px;             
+    padding: 30px 15px;
+    border-radius: 10px;
+    
+}
+
+.icecek{
+    border-style: solid;
+     margin-top: 40px;
+    margin-left: 30px;
+    width: 220px;             
+    padding: 30px 15px;
+    border-radius: 10px;
+    
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center; 
+    gap: 20px;               
+    padding: 30px;
+    flex-wrap: wrap;
+}

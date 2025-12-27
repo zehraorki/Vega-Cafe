@@ -1,0 +1,27 @@
+.top,.form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.birinci,.ikinci,.ucuncu,.dorduncu{
+    border-style: none;
+    padding: 7px;
+    text-align: center;
+}
+
+.top{
+    margin-top: 40px;
+}
+
+.form{
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 30px 35px;
+}
+
+
+
+
+
+
